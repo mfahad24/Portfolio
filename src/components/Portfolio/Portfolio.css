@@ -1,0 +1,54 @@
+.projectcontainer > img {
+    border-radius: 50%;
+    border: 2px solid white;
+    width: 350px;
+    height: 350px; 
+    margin: 20px;
+    /* filter: grayscale(1); */
+    box-shadow: 0 7px 20px 0 rgba(0,0,0,0.2), 0 4px 10px 0 rgba(0,0,0,0.2);
+}
+
+.projectcontainer > img:hover {
+filter: blur(3px) grayscale(1);
+}
+
+
+
+.projectcontainer:hover img {
+    /* transform: scale(1.05); */
+}
+
+.projectcontainer > h3 {
+    text-align:center;
+    line-height: 200px;
+    color: white;
+}
+
+.portfoliocontainer {
+    display: flex; 
+    justify-content: center;
+    margin-top: 100px;
+    position: relative; 
+}
+
+img {
+    border-radius: 50%;
+    transition: 0.5s ease;
+
+}
+
+/* .tile1, .tile2, .tile3 {
+    position: absolute;
+}  */
+
+.projecttitle:hover {
+    /* display: none; */
+    transition: .5s ease;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
