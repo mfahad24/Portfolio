@@ -7,10 +7,18 @@ import BudgetBuddy from './BudgetBuddy.png';
 
 function Portfolio() {
   return <div id="portfolio" className="portfoliocontainer">
-      <div className="projectcontainer tile1"><img src={BudgetBuddy}></img><h3 className="projecttitle"></h3></div>
+      <div class="tile1">
+          <div className="projectcontainer"><img src={BudgetBuddy}></img><h3 className="projecttitle"></h3></div>
+          </div>
+          <div class="tile2">
+          <div className="projectcontainer"><img src={SwipeNChill2}></img></div>
+          </div>
+      <div class="tile3">  
+          <div className="projectcontainer"><img src={BudgetBuddy}></img></div>
+      </div>
 
-      <div className="projectcontainer tile2"><img src={SwipeNChill2}></img></div>
-      <div className="projectcontainer tile3"><img src={BudgetBuddy}></img></div>
+     
+    
 
       
       
