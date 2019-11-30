@@ -30,7 +30,7 @@ filter: blur(3px) grayscale(1);
     justify-content: center;
     margin-top: 100px;
     position: relative; 
-    padding-top: 50px;
+    /* padding-top: 50px; */
     padding-bottom: 50px; 
 }
 
