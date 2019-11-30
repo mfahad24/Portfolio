@@ -1,11 +1,12 @@
 .projectcontainer > img {
     border-radius: 50%;
-    border: 2px solid white;
-    width: 350px;
-    height: 350px; 
+    /* border: 2px solid white; */
+    width: 375px;
+    height: 375px; 
     margin: 20px;
     /* filter: grayscale(1); */
     box-shadow: 0 7px 20px 0 rgba(0,0,0,0.2), 0 4px 10px 0 rgba(0,0,0,0.2);
+    
 }
 
 .projectcontainer > img:hover {
@@ -29,6 +30,8 @@ filter: blur(3px) grayscale(1);
     justify-content: center;
     margin-top: 100px;
     position: relative; 
+    padding-top: 50px;
+    padding-bottom: 50px; 
 }
 
 img {

@@ -1,13 +1,19 @@
-import React from 'react';
+import React, { Component } from 'react';
 import "./TopMenu.css";
 import OfficialResume from "./OfficialResume.pdf";
-function TopMenu() {
-  return <div className="navcontainer"><nav className="nav">
-  <a href="/html/">Home</a> 
-  <a href="/css/">About Me</a> 
-  <a href="/css/">Portfolio</a> 
+  
+class TopMenu extends Component {
+  render() {
+    return (
+     <div className="navcontainer"><nav className="nav">
+  <a href="#header">Home</a> 
+  <a href="#aboutme">About Me</a> 
+  <a href="#portfolio">Portfolio</a> 
   <a href="/js/">Contact Me</a> 
   <a href={OfficialResume}>Resume</a>
 </nav></div>
+    );
+  }
 }
+
 export default TopMenu;

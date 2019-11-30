@@ -7,6 +7,7 @@ import HeaderImage from './components/HeaderImage/HeaderImage.js'
 import AboutMe from './components/AboutMe/AboutMe.js'
 import Portfolio from  './components/Portfolio/Portfolio.js'
 import ArrowUp from './components/ScrollToTop/ScrollToTop.js'
+import Signature from './components/Signature/Signature.js'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
     <AboutMe></AboutMe>
     <Portfolio></Portfolio>
     <ArrowUp></ArrowUp>
+    <Signature></Signature>
     </div>
 
   );
