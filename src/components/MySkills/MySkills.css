@@ -1,0 +1,21 @@
+.skillsbox {
+    background-color: white; 
+    margin: 3px;
+    border-radius: 5px;
+    padding: 10px 40px;
+    text-align:center;
+    box-shadow: 0 7px 20px 0 rgba(0,0,0,0.2), 0 4px 10px 0 rgba(0,0,0,0.2);
+}
+
+.myskillscontainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 50px;
+    padding-bottom:50px; 
+}
+
+.skillsbox > h3 {
+    font-size: 25px;
+}
+

@@ -8,13 +8,18 @@ import AboutMe from './components/AboutMe/AboutMe.js'
 import Portfolio from  './components/Portfolio/Portfolio.js'
 import ArrowUp from './components/ScrollToTop/ScrollToTop.js'
 import Signature from './components/Signature/Signature.js'
+// import ContactMe from './components/ContactMe/ContactMe.js'
+import MySkills from './components/MySkills/MySkills.js'
 
 function App() {
   return (
     <div> <TopMenu></TopMenu>
     <HeaderImage></HeaderImage>
+    <MySkills></MySkills>
     <AboutMe></AboutMe>
     <Portfolio></Portfolio>
+
+    {/* <ContactMe></ContactMe> */}
     <ArrowUp></ArrowUp>
     <Signature></Signature>
     </div>

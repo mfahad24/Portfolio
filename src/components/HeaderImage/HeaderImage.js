@@ -9,10 +9,15 @@ function HeaderImage() {
 <h2>Front-End Developer</h2>
 <div className="iconscontainer">
     <a href="https://twitter.com/fahmohh" target="_blank"><i className="fab fa-twitter"></i></a>
-    <a href="https://www.facebook.com/koobecaf24" target="_blank"><i className="fab fa-facebook-f"></i></a>
-        <a href="https://www.instagram.com/amarnamfahad/" target="_blank"><i className="fab fa-instagram"></i></a>
+    {/* <a href="https://www.facebook.com/koobecaf24" target="_blank"><i className="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/amarnamfahad/" target="_blank"><i className="fab fa-instagram"></i></a> */}
         <a href="https://www.linkedin.com/in/mfahad24/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/mfahad24" target="_blank"><i class="fab fa-github"></i>
 
+</a>
+        <a href="mailto:mohammedfahad@live.com" target="_blank"><i class="fas fa-envelope"></i>
+
+</a>
 
 </div>
   </div>

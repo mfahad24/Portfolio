@@ -7,9 +7,10 @@ class TopMenu extends Component {
     return (
      <div className="navcontainer"><nav className="nav">
   <a href="#header">Home</a> 
+  <a href="#skills">My Skills</a> 
   <a href="#aboutme">About Me</a> 
   <a href="#portfolio">Portfolio</a> 
-  <a href="/js/">Contact Me</a> 
+  {/* <a href="/js/">Contact Me</a>  */}
   <a href={OfficialResume} target="_blank">Resume</a>
 </nav></div>
     );
