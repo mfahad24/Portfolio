@@ -7,6 +7,12 @@ nav > a {
     text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 }
 
+nav > a:hover {
+    opacity: 0.5; 
+    transition: 0.5s; 
+    /* text-decoration: underline; */
+}
+
 .navcontainer {
     position: fixed;
     display: flex; 
@@ -28,6 +34,6 @@ nav > a {
 
     .navcontainer {
         width: 100vw;
-        padding: 10px 5px;
+        padding: 15px 5px;
     }
 }

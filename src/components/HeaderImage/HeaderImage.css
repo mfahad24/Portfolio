@@ -32,6 +32,26 @@ i {
     margin-top: -20px;
 }
 
+.fa-twitter:hover {
+    color: #00acee;
+    transition: .5s; 
+}
+
+.fa-linkedin-in:hover {
+    color:  #0e76a8; 
+    transition: 0.5s;
+}
+
+.fa-github:hover {
+    color:  black; 
+    transition: 0.5s;
+}
+
+.fa-envelope:hover {
+    color: #D44638;
+    transition: 0.5s;
+}
+
 /* mobile styles  */
 
 @media only screen and (max-width: 600px) {
