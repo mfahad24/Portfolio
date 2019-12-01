@@ -1,11 +1,42 @@
-p {
+.signaturecontainer > p {
     color: white; 
     font-size: 25px; 
     padding-left: 10px; 
     text-align: center; 
-    font-style: italic;
+    /* font-style: italic; */
     text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
     /* text-decoration: underline; */
+}
+
+.signaturecontainer > p {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.signaturecontainer > p::before, .signaturecontainer > p::after {
+    content: '';
+    flex: 1;
+    border-bottom: 2px solid white;
+}
+.signaturecontainer > p::before {
+    margin-right: .25em;
+}
+.signaturecontainer > p::after {
+    margin-left: .25em;
+}
+
+.detroit {
+    color: white !important;
+    margin-right:5px;
+    margin-left: 5px; 
+}
+
+.detroit:hover {
+    color: black !important;
+}
+
+.detroit:active {
+    color: white !important;
 }
 
 @media only screen and (max-width: 600px) {

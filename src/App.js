@@ -9,6 +9,7 @@ import ArrowUp from './components/ScrollToTop/ScrollToTop.js'
 import Signature from './components/Signature/Signature.js'
 // import ContactMe from './components/ContactMe/ContactMe.js'
 import MySkills from './components/MySkills/MySkills.js'
+import Timeline from './components/Timeline/Timeline.js'
 
 function App() {
   return (
@@ -16,9 +17,11 @@ function App() {
     <HeaderImage></HeaderImage>
     <MySkills></MySkills>
     <AboutMe></AboutMe>
+    <Timeline></Timeline>
     <Portfolio></Portfolio>
 
     {/* <ContactMe></ContactMe> */}
+
     <ArrowUp></ArrowUp>
     <Signature></Signature>
     </div>
