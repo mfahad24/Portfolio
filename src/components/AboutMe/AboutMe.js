@@ -1,5 +1,4 @@
 import React from 'react';
-import Profile from "./profile2.jpg"
 import "./AboutMe.css";
 function AboutMe() {
   return <div id="aboutme" className="aboutmecontainer">

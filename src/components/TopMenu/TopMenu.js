@@ -11,7 +11,7 @@ class TopMenu extends Component {
   <a href="#aboutme">About Me</a> 
   <a href="#portfolio">Portfolio</a> 
   {/* <a href="/js/">Contact Me</a>  */}
-  <a href={OfficialResume} target="_blank">Resume</a>
+  <a href={OfficialResume} target="_blank" rel="noopener noreferrer">Resume</a>
 </nav></div>
     );
   }
