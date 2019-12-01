@@ -89,6 +89,7 @@
 .timeline ul li:nth-child(odd) .content {
   left: 50px;
   background:#4F646F;
+  box-shadow: 0 7px 20px 0 rgba(0,0,0,0.2), 0 4px 10px 0 rgba(0,0,0,0.2);
   /* background: -webkit-linear-gradient(-45deg, #56BC83, #67CC8E);
   background: linear-gradient(-45deg, #56BC83, #67CC8E); */
 }
@@ -98,11 +99,13 @@
 .timeline ul li:nth-child(even) .content {
   left: calc(-450px - 85px);
   background: #4F646F;
+  box-shadow: 0 7px 20px 0 rgba(0,0,0,0.2), 0 4px 10px 0 rgba(0,0,0,0.2);
   /* background: -webkit-linear-gradient(45deg, #56BC83, #67CC8E);
   background: linear-gradient(45deg, #56BC83, #67CC8E); */
 }
 .timeline ul li:nth-child(even) .content:before {
   right: -38px;
+  
 }
 
 .grandcircus {
