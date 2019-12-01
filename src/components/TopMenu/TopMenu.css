@@ -10,7 +10,6 @@ nav > a {
 nav > a:hover {
     opacity: 0.5; 
     transition: 0.5s; 
-    /* text-decoration: underline; */
 }
 
 .navcontainer {
@@ -22,6 +21,28 @@ nav > a:hover {
     padding: 20px; 
     box-shadow: 0 7px 20px 0 rgba(0,0,0,0.2), 0 4px 10px 0 rgba(0,0,0,0.2);
     z-index: 10; 
+    transition: 1s;
+}
+
+/* when scrollbar has passed a certain point, go to small nav bar */
+.navcontaineralt {
+    position: fixed;
+    display: flex; 
+    justify-content: left;
+    width: 100%;
+    background-color: #4F646F;
+    padding: 10px; 
+    box-shadow: 0 7px 20px 0 rgba(0,0,0,0.2), 0 4px 10px 0 rgba(0,0,0,0.2);
+    z-index: 10; 
+    transition: 1s;
+}
+
+.navcontaineralt > nav > a {
+    text-decoration: 	none currentcolor solid;
+    color: #f7f9f9; 
+    margin: 15px; 
+    font-size: 20px; 
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 }
 
 /* mobile styles */

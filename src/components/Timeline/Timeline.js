@@ -11,7 +11,7 @@ function Timeline() {
         <h2>
           <time>March 2018</time>
         </h2>
-        <p>Graduated from the <a className="grandcircus" href="https://www.grandcircus.co/" target="_blank" rel="noopener noreferrer">Grand Circus</a> Front End Bootcamp. It was a ten week fulltime bootcamp that covered HTML, CSS, Javascript, jQuery, Angular, Ajax, Json, NodeJs, Express, and PostgreSQL. After taking this course, I gained a strong understanding and applicability of these concepts.</p>
+        <p>Graduated from the <a className="grandcircus" href="https://www.grandcircus.co/" target="_blank" rel="noopener noreferrer">Grand Circus</a> Front End Bootcamp. It was a ten week fulltime bootcamp that covered HTML, CSS, Javascript, jQuery, Angular, Ajax, Json, NodeJs, Express, and PostgreSQL. After taking this course, I gained a strong understanding and applicability of these concepts</p>
       </div>
     </li>
     <li>
@@ -19,7 +19,7 @@ function Timeline() {
         <h2>
           <time>July 2018</time>
         </h2>
-        <p>Started as a Wordpress Developer for LivingSpace Sunrooms in Plymouth, MI.</p>
+        <p>Started as a Wordpress Developer for LivingSpace Sunrooms in Plymouth, MI</p>
       </div>
     </li>
     <li>
