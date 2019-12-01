@@ -19,3 +19,16 @@
     font-size: 25px;
 }
 
+/* mobile styles */
+
+@media only screen and (max-width: 800px) {
+.skillsbox {
+    width: 75px;
+    height: 200px;
+}
+
+.myskillscontainer {
+    flex-wrap: wrap;
+}
+}
+

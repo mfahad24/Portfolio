@@ -1,22 +1,14 @@
 .projectcontainer > img {
     border-radius: 50%;
-    /* border: 2px solid white; */
     width: 375px;
     height: 375px; 
     margin: 20px;
-    /* filter: grayscale(1); */
     box-shadow: 0 7px 20px 0 rgba(0,0,0,0.2), 0 4px 10px 0 rgba(0,0,0,0.2);
     
 }
 
 .projectcontainer > img:hover {
 filter: blur(3px) grayscale(1);
-}
-
-
-
-.projectcontainer:hover img {
-    /* transform: scale(1.05); */
 }
 
 .projectcontainer > h3 {
@@ -30,7 +22,6 @@ filter: blur(3px) grayscale(1);
     justify-content: center;
     margin-top: 100px;
     position: relative; 
-    /* padding-top: 50px; */
     padding-bottom: 50px; 
 }
 
@@ -40,12 +31,7 @@ img {
 
 }
 
-/* .tile1, .tile2, .tile3 {
-    position: absolute;
-}  */
-
 .projecttitle:hover {
-    /* display: none; */
     transition: .5s ease;
     opacity: 1;
     position: absolute;
@@ -56,15 +42,16 @@ img {
     text-align: center;
 }
 
-/* .title1, .title2, .title3 {
-    position: relative; 
-} */
+/* mobile styles  */
 
-/* .descriptiontab {
-    width: 30%;
-    height: 20vh;
-    background-color:white;
-    z-index: 10; 
-    position: absolute; 
-    border-radius: 5px; 
-} */
+@media only screen and (max-width: 600px) {
+    .portfoliocontainer {
+        flex-wrap: wrap;
+    }
+
+    .projectcontainer > img {
+        width: 300px;
+        height: 300px;
+    }
+}
+

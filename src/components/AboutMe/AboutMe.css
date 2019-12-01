@@ -1,11 +1,9 @@
 .profile {
-    /* border-radius: 50%; */
     height: 400px;
     width: 300px;
     margin: 0 auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     filter: grayscale(100%);
-    /* border: 0;  */
 }
 
 .aboutmecontainer {
@@ -25,46 +23,6 @@
     font-style: italic;
 }
 
-/* .skills li:before {
-    content: '\2014';
-    position: absolute;
-    margin-left: -px;
-  } */
-
-  /* .profile
-{
-    position:relative;
-    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-}
-.profile:before, .profile:after
-{
-    content:"";
-    position:absolute;
-    z-index:-1;
-    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
-    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
-    box-shadow:0 0 20px rgba(0,0,0,0.8);
-    top:50%;
-    bottom:0;
-    left:10px;
-    right:10px;
-    -moz-border-radius:100px / 10px;
-    border-radius:100px / 10px;
-}
-.profile:after
-{
-    right:10px;
-    left:auto;
-    -webkit-transform:skew(8deg) rotate(3deg);
-       -moz-transform:skew(8deg) rotate(3deg);
-        -ms-transform:skew(8deg) rotate(3deg);
-         -o-transform:skew(8deg) rotate(3deg);
-            transform:skew(8deg) rotate(3deg);
-}
- */
-
  blockquote {
     color: #f7f9f9; 
     width: 50%;
@@ -75,3 +33,12 @@
     margin: 0 auto;
     text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
  }
+
+ /* mobile styles  */
+
+ @media only screen and (max-width: 600px) {
+    blockquote {
+        width: 75%;
+    }
+}
+
