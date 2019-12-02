@@ -37,13 +37,21 @@ nav > a:hover {
     transition: 1s;
 }
 
-.navcontaineralt > nav > a {
+/* .navcontaineralt > nav > a {
     text-decoration: 	none currentcolor solid;
     color: #f7f9f9; 
     margin: 15px; 
     font-size: 20px; 
     text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 }
+
+.navcontaineralt > .iconscontainer > a > i {
+    font-size: 20px; 
+}
+
+.navcontaineralt > .iconscontainer {
+    font-size: 25px; 
+} */
 
 /* mobile styles */
 

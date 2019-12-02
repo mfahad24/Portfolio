@@ -7,9 +7,9 @@
     
 }
 
-.projectcontainer > img:hover {
+/* .projectcontainer > img:hover {
 filter: blur(3px) grayscale(1);
-}
+} */
 
 .projectcontainer > h3 {
     text-align:center;
