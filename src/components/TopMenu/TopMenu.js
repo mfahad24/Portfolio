@@ -24,7 +24,6 @@ class TopMenu extends Component {
   
 
   render() {
-    console.log("POSITION", this.state.scrollPosition)
     if (window.scrollY < 150 && window.innerWidth > 600) {
     return (
      <div className="navcontainer"><nav className="nav">
