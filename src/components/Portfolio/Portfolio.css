@@ -1,4 +1,4 @@
-.projectcontainer > img {
+.projectcontainer > a > img {
     border-radius: 50%;
     width: 375px;
     height: 375px; 
