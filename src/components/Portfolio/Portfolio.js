@@ -8,11 +8,11 @@ import BudgetBuddy from './BudgetBuddy.png';
 function Portfolio() {
   return <div id="portfolio" className="portfoliocontainer">
       <div className="tile1">
-          <div className="projectcontainer"><a href="https://mfahad24.github.io/Budget-Buddy/" target="_blank" rel="noopener noreferrer"><img src={BudgetBuddy} alt="Budget Buddy" title="Budget Buddy"></img></a></div>
+          <div className="projectcontainer"><a href="https://mfahad24.github.io/Budget-Buddy/" target="_blank" rel="noopener noreferrer"><img class="tileimg" src={BudgetBuddy} alt="Budget Buddy" title="Budget Buddy"></img><h2 className="title">Budget Buddy</h2></a></div>
           {/* <div className="descriptiontab descriptionone"><h3 className="projecttitle">Budget Buddy</h3><p></p></div> */}
           </div>
           <div className="tile2">
-          <div className="projectcontainer"><a href="https://mfahad24.github.io/MovieFinder/" target="_blank" rel="noopener noreferrer"><img src={SwipeNChill2} alt="Swipe N Chill" title="Swipe N Chill"></img></a></div>
+          <div className="projectcontainer"><a href="https://mfahad24.github.io/MovieFinder/" target="_blank" rel="noopener noreferrer"><img class="tileimg" src={SwipeNChill2} alt="Swipe N Chill" title="Swipe N Chill"></img><h2 className="title">Swipe-N-Chill</h2></a></div>
           {/* <div className="descriptiontab descriptiontwo"><h3 className="projecttitle">Movie Finder</h3><p></p></div> */}
           </div>
       {/* <div className="tile3">   */}

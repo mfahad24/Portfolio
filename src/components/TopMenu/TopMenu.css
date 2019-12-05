@@ -55,7 +55,7 @@ nav > a:hover {
 
 /* mobile styles */
 #slimnav > nav > a {
-    font-size: 17px; 
+    font-size: 25px; 
 }
 
 @media only screen and (max-width: 600px) {

@@ -1,7 +1,7 @@
 .projectcontainer > a > img {
     border-radius: 50%;
-    width: 375px;
-    height: 375px; 
+    width: 300px;
+    height: 300px; 
     margin: 20px;
     box-shadow: 0 7px 20px 0 rgba(0,0,0,0.2), 0 4px 10px 0 rgba(0,0,0,0.2);
     
@@ -40,7 +40,33 @@ img {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
+
 }
+
+.projectcontainer {
+    position: relative; 
+    /* opacity: 0.5;  */
+}
+.title {
+    /* font-size: 40px;  */
+    position: absolute;
+    right: 45px;
+    top: 90px;
+}
+
+/* .title:hover {
+    display: none; 
+} */
+
+.tileimg {
+    filter:brightness(40%);
+}
+
+/* .tileimg:hover {
+    filter:brightness(80%); 
+} */
+
+
 
 /* mobile styles  */
 
@@ -50,8 +76,11 @@ img {
     }
 
     .projectcontainer > a > img {
-        width: 300px;
-        height: 300px;
+        width: 250px;
+        height: 250px;
     }
+    /* .title {
+        font-size: 25px;
+    } */
 }
 
