@@ -1,14 +1,14 @@
 .signaturecontainer > p {
     color: white; 
-    font-size: 20px; 
+    font-size: 15px; 
     padding-left: 10px; 
     text-align: center; 
     text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 }
 
-.signaturecontainer > p {
+/* .signaturecontainer > p {
     display: flex;
-    align-items: center;
+    align-items: cnter;
     text-align: center;
 }
 .signaturecontainer > p::before, .signaturecontainer > p::after {
@@ -21,12 +21,12 @@
 }
 .signaturecontainer > p::after {
     margin-left: .25em;
-}
+} */
 
 .detroit {
     color: white !important;
-    margin-right:5px;
-    margin-left: 5px; 
+    margin-right:2px;
+    margin-left: 2px; 
 }
 
 .detroit:hover {

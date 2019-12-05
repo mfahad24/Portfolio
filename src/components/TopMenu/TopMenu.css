@@ -28,7 +28,7 @@ nav > a:hover {
 .navcontaineralt {
     position: fixed;
     display: flex; 
-    justify-content: left;
+    justify-content: center;
     width: 100%;
     background-color: #4F646F;
     padding: 10px; 
@@ -54,6 +54,9 @@ nav > a:hover {
 } */
 
 /* mobile styles */
+#slimnav > nav > a {
+    font-size: 17px; 
+}
 
 @media only screen and (max-width: 600px) {
     nav > a {
@@ -64,5 +67,9 @@ nav > a:hover {
     .navcontainer {
         width: 100vw;
         padding: 15px 5px;
+    }
+
+    #slimnav > nav > a {
+        font-size: 15px; 
     }
 }

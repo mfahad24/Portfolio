@@ -35,7 +35,7 @@ class TopMenu extends Component {
 </nav></div>
     );
     } else {
-      return <div className="navcontaineralt"><nav className="nav">
+      return <div id="slimnav" className="navcontaineralt"><nav className="nav">
       <a href="#skills">My Skills</a> 
       <a href="#aboutme">About Me</a> 
       <a href="#timeline">Timeline</a> 
