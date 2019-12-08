@@ -1,9 +1,9 @@
 .signaturecontainer > p {
-    color: white; 
-    font-size: 15px; 
-    padding-left: 10px; 
-    text-align: center; 
-    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+  color: white;
+  font-size: 15px;
+  padding-left: 10px;
+  text-align: center;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
 }
 
 /* .signaturecontainer > p {
@@ -24,25 +24,25 @@
 } */
 
 .detroit {
-    color: white !important;
-    margin-right:2px;
-    margin-left: 2px; 
+  color: white !important;
+  margin-right: 2px;
+  margin-left: 2px;
 }
 
 .detroit:hover {
-    color: black !important;
+  color: black !important;
 }
 
 .detroit:active {
-    color: white !important;
+  color: white !important;
 }
 
 @media only screen and (max-width: 600px) {
-   p {
-       font-size: 15px; 
-   }
+  p {
+    font-size: 15px;
+  }
 
-   .signaturecontainer > p {
-       font-size: 15px; 
-   }
+  .signaturecontainer > p {
+    font-size: 15px;
+  }
 }

@@ -1,10 +1,9 @@
 .projectcontainer > a > img {
-    border-radius: 50%;
-    width: 300px;
-    height: 300px; 
-    margin: 20px;
-    box-shadow: 0 7px 20px 0 rgba(0,0,0,0.2), 0 4px 10px 0 rgba(0,0,0,0.2);
-    
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  box-shadow: 0 7px 20px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.2);
 }
 
 /* .projectcontainer > img:hover {
@@ -12,18 +11,18 @@ filter: blur(3px) grayscale(1);
 } */
 
 .projectcontainer > h3 {
-    text-align:center;
-    line-height: 200px;
-    color: white;
+  text-align: center;
+  line-height: 200px;
+  color: white;
 }
 
 .portfoliocontainer {
-    display: flex; 
-    justify-content: center;
-    margin-top: 100px;
-    position: relative; 
-    padding-bottom: 50px; 
-    flex-wrap: wrap; 
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  position: relative;
+  padding-bottom: 50px;
+  flex-wrap: wrap;
 }
 
 /* .personal, .professional {
@@ -31,49 +30,47 @@ filter: blur(3px) grayscale(1);
 } */
 
 img {
-    border-radius: 50%;
-    transition: 0.5s ease;
-
+  border-radius: 50%;
+  transition: 0.5s ease;
 }
 
 .projecttitle:hover {
-    transition: .5s ease;
-    opacity: 1;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-
+  transition: 0.5s ease;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .projectcontainer {
-    position: relative; 
-    /* opacity: 0.5;  */
+  position: relative;
+  /* opacity: 0.5;  */
 }
 .title {
-    font-size: 40px; 
-    position: absolute;
-    right: 60px;
-    top: 100px;
-    text-align: center;
+  font-size: 40px;
+  position: absolute;
+  right: 60px;
+  top: 100px;
+  text-align: center;
 }
 
 .tile2title {
-    right: 65px;
+  right: 65px;
 }
 
 .tile3title {
-    right: 80px; 
+  right: 80px;
 }
 
 .tile4title {
-    right: 30px; 
+  right: 30px;
 }
 
 .tile5title {
-    right: 75px; 
+  right: 75px;
 }
 
 /* .title:hover {
@@ -81,28 +78,25 @@ img {
 } */
 
 .tileimg {
-    filter:brightness(55%);
+  filter: brightness(55%);
 }
 
 .tileimg:hover {
-    filter:brightness(80%); 
+  filter: brightness(80%);
 }
-
-
 
 /* mobile styles  */
 
 @media only screen and (max-width: 600px) {
-    .portfoliocontainer {
-        flex-wrap: wrap;
-    }
+  .portfoliocontainer {
+    flex-wrap: wrap;
+  }
 
-    .projectcontainer > a > img {
-        width: 250px;
-        height: 250px;
-    }
-    /* .title {
+  .projectcontainer > a > img {
+    width: 250px;
+    height: 250px;
+  }
+  /* .title {
         font-size: 25px;
     } */
 }
-

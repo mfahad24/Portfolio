@@ -1,40 +1,40 @@
 /* desktop styles */
 nav > a {
-    text-decoration: 	none currentcolor solid;
-    color: #f7f9f9; 
-    margin: 15px; 
-    font-size: 30px; 
-    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+  text-decoration: none currentcolor solid;
+  color: #f7f9f9;
+  margin: 15px;
+  font-size: 30px;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
 }
 
 nav > a:hover {
-    opacity: 0.5; 
-    transition: 0.5s; 
+  opacity: 0.5;
+  transition: 0.5s;
 }
 
 .navcontainer {
-    position: fixed;
-    display: flex; 
-    justify-content: center;
-    width: 100%;
-    background-color: #4F646F;
-    padding: 20px; 
-    box-shadow: 0 7px 20px 0 rgba(0,0,0,0.2), 0 4px 10px 0 rgba(0,0,0,0.2);
-    z-index: 10; 
-    transition: 1s;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #4f646f;
+  padding: 20px;
+  box-shadow: 0 7px 20px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+  z-index: 10;
+  transition: 1s;
 }
 
 /* when scrollbar has passed a certain point, go to small nav bar */
 .navcontaineralt {
-    position: fixed;
-    display: flex; 
-    justify-content: center;
-    width: 100%;
-    background-color: #4F646F;
-    padding: 10px; 
-    box-shadow: 0 7px 20px 0 rgba(0,0,0,0.2), 0 4px 10px 0 rgba(0,0,0,0.2);
-    z-index: 10; 
-    transition: 1s;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #4f646f;
+  padding: 10px;
+  box-shadow: 0 7px 20px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+  z-index: 10;
+  transition: 1s;
 }
 
 /* .navcontaineralt > nav > a {
@@ -55,21 +55,21 @@ nav > a:hover {
 
 /* mobile styles */
 #slimnav > nav > a {
-    font-size: 25px; 
+  font-size: 25px;
 }
 
 @media only screen and (max-width: 600px) {
-    nav > a {
-        font-size: 15px; 
-        margin: 10px;
-    }
+  nav > a {
+    font-size: 15px;
+    margin: 10px;
+  }
 
-    .navcontainer {
-        width: 100vw;
-        padding: 15px 5px;
-    }
+  .navcontainer {
+    width: 100vw;
+    padding: 15px 5px;
+  }
 
-    #slimnav > nav > a {
-        font-size: 15px; 
-    }
+  #slimnav > nav > a {
+    font-size: 15px;
+  }
 }

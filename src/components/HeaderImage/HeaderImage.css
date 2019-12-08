@@ -1,66 +1,66 @@
 /* desktop styles */
 .headerimagecontainer {
-    text-align: center; 
-    height: 100%;
-    padding-top: 100px;
-    padding-bottom: 100px; 
+  text-align: center;
+  height: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 h1 {
-    font-family: 'Bebas Neue', cursive;
-    font-size: 100px; 
-    margin-bottom: -50px; 
-    letter-spacing: 10px; 
-    padding-top: 20px;
+  font-family: "Bebas Neue", cursive;
+  font-size: 100px;
+  margin-bottom: -50px;
+  letter-spacing: 10px;
+  padding-top: 20px;
 }
 
 h2 {
-    font-size: 50px; 
+  font-size: 50px;
 }
 
-h1, h2 {
-    color: #f7f9f9; 
-    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+h1,
+h2 {
+  color: #f7f9f9;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
 }
 
 i {
-    color:  #f7f9f9; 
+  color: #f7f9f9;
 }
 
 .iconscontainer {
-    font-size: 50px; 
-    margin-top: -20px;
+  font-size: 50px;
+  margin-top: -20px;
 }
 
 .fa-twitter:hover {
-    color: #00acee;
-    transition: .5s; 
+  color: #00acee;
+  transition: 0.5s;
 }
 
 .fa-linkedin-in:hover {
-    color:  #0e76a8; 
-    transition: 0.5s;
+  color: #0e76a8;
+  transition: 0.5s;
 }
 
 .fa-github:hover {
-    color:  black; 
-    transition: 0.5s;
+  color: black;
+  transition: 0.5s;
 }
 
 .fa-envelope:hover {
-    color: #D44638;
-    transition: 0.5s;
+  color: #d44638;
+  transition: 0.5s;
 }
 
 /* mobile styles  */
 
 @media only screen and (max-width: 600px) {
-    h1 {
-        font-size: 70px; 
-        margin-bottom: -20px; 
-    }
-    h2 {
-        font-size: 35px; 
-    }
+  h1 {
+    font-size: 70px;
+    margin-bottom: -20px;
+  }
+  h2 {
+    font-size: 35px;
+  }
 }
-
