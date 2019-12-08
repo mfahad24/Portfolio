@@ -59,11 +59,7 @@ function Portfolio() {
       {/* </div> */}
       <div className="tile3">
         <div className="projectcontainer">
-          <a
-            href="https://mfahad24.github.io/MovieFinder/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="" target="_blank" rel="noopener noreferrer">
             <img
               class="tileimg"
               src={UnionBank2}
@@ -77,11 +73,7 @@ function Portfolio() {
 
       <div className="tile4">
         <div className="projectcontainer">
-          <a
-            href="https://mfahad24.github.io/MovieFinder/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="" target="_blank" rel="noopener noreferrer">
             <img
               class="tileimg"
               src={KP2}
@@ -95,11 +87,7 @@ function Portfolio() {
 
       <div className="tile5">
         <div className="projectcontainer">
-          <a
-            href="https://mfahad24.github.io/MovieFinder/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="" target="_blank" rel="noopener noreferrer">
             <img
               class="tileimg"
               src={FordSYNC4}
