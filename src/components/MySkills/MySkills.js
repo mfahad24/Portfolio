@@ -31,6 +31,11 @@ function MySkills() {
         <i className="fab fa-wordpress" style={{ color: "#00769D" }}></i>
         <h3>WordPress</h3>
       </div>
+      <div className="skillsbox">
+        {" "}
+        <i className="fab fa-node" style={{ color: "#00769D" }}></i>
+        <h3>Express</h3>
+      </div>
     </div>
   );
 }

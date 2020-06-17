@@ -5,10 +5,10 @@ function AboutMe() {
     <div id="aboutme" className="aboutmecontainer">
       {/* <img className="profile" src={Profile}></img> */}
       <blockquote>
-        A well-rounded front-end developer who recently made a career change
-        into the tech industry. I am a hard-working, inquisitive, organized, and
-        highly resourceful individual who is looking for an opportunity to
-        showcase my skills.{" "}
+        Software Developer currently working in the automotive space at
+        Elektrobit Automotives. Currently, I am using a wide variety of
+        technologies to develop infotainment software for the Ford SYNC4
+        project.{" "}
       </blockquote>
       {/* <ul className="skills">  <li>Proficient in HTML, CSS & JavaScript</li>
   <li>An excellent troubleshooter and problem solver</li>
