@@ -2,7 +2,7 @@ import React from "react";
 import "./Portfolio.css";
 
 // import SwipeNChill from './SwipeNChill.png';
-import SwipeNChill2 from "./SwipeNChill.png";
+// import SwipeNChill2 from "./SwipeNChill.png";
 // import BudgetBuddy from "./BudgetBuddy.png";
 // import UnionBank2 from "./UnionBank2.jpg";
 // import KP2 from "./KaiserPermanente2.png";
@@ -21,7 +21,7 @@ function Portfolio() {
           <div className="projectcontainer">
             <a href="" target="_blank" rel="noopener noreferrer">
               <img
-                class="tileimg"
+                className="tileimg"
                 src={UnionBank2}
                 alt="Union Bank"
                 title="Union Bank"
@@ -34,7 +34,7 @@ function Portfolio() {
           <div className="projectcontainer">
             <a href="" target="_blank" rel="noopener noreferrer">
               <img
-                class="tileimg"
+                className="tileimg"
                 src={KP2}
                 alt="Kaiser Permanente"
                 title="Kaiser Permanente"
@@ -46,7 +46,7 @@ function Portfolio() {
           <div className="projectcontainer">
             <a href="" target="_blank" rel="noopener noreferrer">
               <img
-                class="tileimg"
+                className="tileimg"
                 src={FordSYNC4}
                 alt="Ford SYNC"
                 title="Ford SYNC"
@@ -66,7 +66,7 @@ function Portfolio() {
               rel="noopener noreferrer"
             >
               <img
-                class="tileimg"
+                className="tileimg"
                 src={SwipeNChill2}
                 alt="Swipe N Chill"
                 title="Swipe N Chill"
@@ -79,7 +79,7 @@ function Portfolio() {
           <div className="projectcontainer">
             <a href="http://jumpy-powder.surge.sh/" target="_blank" rel="noopener noreferrer">
               <img
-                class="tileimg"
+                className="tileimg"
                 src={WeatherApp}
                 alt="Weather App"
                 title="Weather App"
@@ -91,7 +91,7 @@ function Portfolio() {
           <div className="projectcontainer">
             <a href="http://calendar-app-2022.herokuapp.com/" target="_blank" rel="noopener noreferrer">
               <img
-                class="tileimg"
+                className="tileimg"
                 src={CalendarApp}
                 alt="Calendar App"
                 title="Calendar App"
@@ -103,7 +103,7 @@ function Portfolio() {
           <div className="projectcontainer">
             <a href="https://ionamasjid.org/" target="_blank" rel="noopener noreferrer">
               <img
-                class="tileimg"
+                className="tileimg"
                 src={TimeToPray}
                 alt="Daily Prayer Times"
                 title="Daily Prayer Times"
@@ -116,7 +116,7 @@ function Portfolio() {
           <div className="projectcontainer">
             <a href="https://ionamasjid.org/portfolio/zakat-calculator.html" target="_blank" rel="noopener noreferrer">
               <img
-                class="tileimg"
+                className="tileimg"
                 src={DonateForZakah}
                 alt="Donation/Zakah Calculator"
                 title="Donation/Zakah Calculator"

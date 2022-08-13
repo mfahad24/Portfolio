@@ -6,7 +6,8 @@
   padding-bottom: 100px;
 }
 
-.iconscontainer > a > .fab, .iconscontainer > a > .fas {
+.iconscontainer>a>.fab,
+.iconscontainer>a>.fas {
   text-shadow: 2px 4px 3px rgb(0 0 0 / 30%);
 }
 
@@ -64,6 +65,7 @@ i {
     font-size: 70px;
     margin-bottom: -20px;
   }
+
   h2 {
     font-size: 35px;
   }

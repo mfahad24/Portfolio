@@ -1,27 +1,10 @@
-.signaturecontainer > p {
+.signaturecontainer>p {
   color: white;
   font-size: 15px;
   padding-left: 10px;
   text-align: center;
   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
 }
-
-/* .signaturecontainer > p {
-    display: flex;
-    align-items: cnter;
-    text-align: center;
-}
-.signaturecontainer > p::before, .signaturecontainer > p::after {
-    content: '';
-    flex: 1;
-    border-bottom: 2px solid white;
-}
-.signaturecontainer > p::before {
-    margin-right: .25em;
-}
-.signaturecontainer > p::after {
-    margin-left: .25em;
-} */
 
 .detroit {
   color: white !important;
@@ -42,7 +25,7 @@
     font-size: 15px;
   }
 
-  .signaturecontainer > p {
+  .signaturecontainer>p {
     font-size: 15px;
   }
 }

@@ -26,7 +26,7 @@ class ScrollToTop extends Component {
       return (
         <div className="scrolltotop">
           <a href="#top">
-            <i class="fas fa-arrow-circle-up"></i>
+            <i className="fas fa-arrow-circle-up"></i>
           </a>
         </div>
       );
@@ -35,7 +35,4 @@ class ScrollToTop extends Component {
     }
   }
 }
-// function ScrollToTop() {
-//   return <div className="scrolltotop"><a href="#top"><i className="fas fa-arrow-up"></i></a></div>
-// }
 export default ScrollToTop;

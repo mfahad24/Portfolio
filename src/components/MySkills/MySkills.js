@@ -24,7 +24,7 @@ function MySkills() {
       </div>
       <div className="skillsbox">
         {" "}
-        <img src={TypeScript} style={{ height: "50px", width: "50px", padding: "20px" }}/>
+        <img src={TypeScript} alt="tyepscript" style={{ height: "50px", width: "50px", padding: "20px" }}/>
         <h3>TypeScript</h3>
       </div>
       <div className="skillsbox">
