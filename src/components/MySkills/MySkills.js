@@ -1,5 +1,6 @@
 import React from "react";
 import "./MySkills.css";
+import TypeScript from "./TypeScript.png"
 
 function MySkills() {
   return (
@@ -23,13 +24,8 @@ function MySkills() {
       </div>
       <div className="skillsbox">
         {" "}
-        <i className="fab fa-vuejs" style={{ color: "#34495E" }}></i>
-        <h3>Vue</h3>
-      </div>
-      <div className="skillsbox">
-        {" "}
-        <i className="fab fa-wordpress" style={{ color: "#00769D" }}></i>
-        <h3>WordPress</h3>
+        <img src={TypeScript} style={{ height: "50px", width: "50px", padding: "20px" }}/>
+        <h3>TypeScript</h3>
       </div>
       <div className="skillsbox">
         {" "}

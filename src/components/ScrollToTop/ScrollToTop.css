@@ -2,10 +2,7 @@
 
 i {
   font-size: 50px;
-  /* display: flex;
-    justify-content: center; */
   padding: 20px;
-  /* position: fixed;  */
 }
 
 .scrolltotop > a > i {
@@ -17,8 +14,6 @@ i {
 
 .scrolltotop {
   text-align: center;
-  /* position: absolute;
-    top: 0;  */
 }
 
 @media only screen and (max-width: 600px) {

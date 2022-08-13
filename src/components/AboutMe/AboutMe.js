@@ -5,8 +5,14 @@ function AboutMe() {
     <div id="aboutme" className="aboutmecontainer">
       {/* <img className="profile" src={Profile}></img> */}
       <blockquote>
-        Software Developer currently working in the automotive space at
-        Elektrobit Automotives. Currently, I am using a wide variety of
+        Software Developer currently working in the automotive space at{" "} 
+        <a
+          className="grandcircus"
+          href="https://www.elektrobit.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >Elektrobit Automotives
+        </a>. Currently, I am using a wide variety of
         technologies to develop infotainment software for the Ford SYNC4
         project.{" "}
       </blockquote>

@@ -6,6 +6,10 @@
   padding-bottom: 100px;
 }
 
+.iconscontainer > a > .fab, .iconscontainer > a > .fas {
+  text-shadow: 2px 4px 3px rgb(0 0 0 / 30%);
+}
+
 h1 {
   font-family: "Bebas Neue", cursive;
   font-size: 100px;

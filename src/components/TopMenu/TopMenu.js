@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./TopMenu.css";
-import OfficialResume from "./OfficialResume.pdf";
+import MohammedFahadResume from "./MohammedFahadResume.pdf";
 
 class TopMenu extends Component {
   constructor(props) {
@@ -31,7 +31,7 @@ class TopMenu extends Component {
             <a href="#aboutme">About Me</a>
             <a href="#timeline">Timeline</a>
             <a href="#portfolio">Portfolio</a>
-            <a href={OfficialResume} target="_blank" rel="noopener noreferrer">
+            <a href={MohammedFahadResume} target="_blank" rel="noopener noreferrer">
               Resume
             </a>
           </nav>
@@ -45,7 +45,7 @@ class TopMenu extends Component {
             <a href="#aboutme">About Me</a>
             <a href="#timeline">Timeline</a>
             <a href="#portfolio">Portfolio</a>
-            <a href={OfficialResume} target="_blank" rel="noopener noreferrer">
+            <a href={MohammedFahadResume} target="_blank" rel="noopener noreferrer">
               Resume
             </a>
           </nav>

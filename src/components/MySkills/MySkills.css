@@ -1,6 +1,6 @@
 .skillsbox {
   background-color: white;
-  margin: 3px;
+  margin: 5px;
   border-radius: 5px;
   padding: 10px 40px;
   text-align: center;
@@ -13,6 +13,7 @@
   flex-direction: row;
   padding-top: 50px;
   padding-bottom: 50px;
+  flex-wrap: wrap;
 }
 
 .skillsbox > h3 {
