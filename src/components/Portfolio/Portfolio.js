@@ -11,6 +11,7 @@ import WeatherApp from "./WeatherApp.jpg";
 import CalendarApp from "./CalendarApp.png";
 import TimeToPray from "./TimeToPray.png"
 import DonateForZakah from "./DonateForZakah.png";
+import Timer from "./Timer.png"
 
 function Portfolio() {
   return (
@@ -120,6 +121,19 @@ function Portfolio() {
                 src={DonateForZakah}
                 alt="Donation/Zakah Calculator"
                 title="Donation/Zakah Calculator"
+              ></img>
+            </a>
+          </div>
+
+        </div>
+        <div className="tile7">
+          <div className="projectcontainer">
+            <a href="https://windows-timer-app.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+              <img
+                className="tileimg"
+                src={Timer}
+                alt="Windows Timer App clone"
+                title="Windows Timer App clone"
               ></img>
             </a>
           </div>
