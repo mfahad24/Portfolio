@@ -128,7 +128,7 @@ function Portfolio() {
         </div>
         <div className="tile7">
           <div className="projectcontainer">
-            <a href="https://windows-timer-app.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+            <a href="http://windows-timer-app.surge.sh/" target="_blank" rel="noopener noreferrer">
               <img
                 className="tileimg"
                 src={Timer}
