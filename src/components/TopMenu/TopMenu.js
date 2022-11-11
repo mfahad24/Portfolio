@@ -29,8 +29,8 @@ class TopMenu extends Component {
           <nav className="nav">
             <a href="#skills">My Skills</a>
             <a href="#aboutme">About Me</a>
-            <a href="#timeline">Professional</a>
-            <a href="#portfolio">Personal</a>
+            <a href="#timeline">Timeline</a>
+            <a href="#portfolio">Projects</a>
             <a href={MohammedFahadResume} target="_blank" rel="noopener noreferrer">
               Resume
             </a>
@@ -43,8 +43,8 @@ class TopMenu extends Component {
           <nav className="nav">
             <a href="#skills">My Skills</a>
             <a href="#aboutme">About Me</a>
-            <a href="#timeline">Professional</a>
-            <a href="#portfolio">Personal</a>
+            <a href="#timeline">Timeline</a>
+            <a href="#portfolio">Projects</a>
             <a href={MohammedFahadResume} target="_blank" rel="noopener noreferrer">
               Resume
             </a>

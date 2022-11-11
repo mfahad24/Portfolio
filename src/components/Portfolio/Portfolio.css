@@ -72,6 +72,18 @@ img {
   filter: brightness(80%);
 }
 
+.css-ja5taz-MuiTooltip-tooltip {
+  font-size: 1.1rem !important; 
+  font-family: "Oswald", sans-serif !important;
+  text-align: center !important; 
+  margin-top: -5px !important; 
+  background-color: #4f646f !important;
+  border-radius: 5px !important;
+  box-shadow: 0 7px 20px 0 rgb(0 0 0 / 20%), 0 4px 10px 0 rgb(0 0 0 / 20%) !important;
+  width: 250px !important; 
+  text-shadow: 2px 4px 3px rgb(0 0 0 / 30%) !important; 
+}
+
 /* mobile styles  */
 
 @media only screen and (max-width: 600px) {

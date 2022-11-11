@@ -102,7 +102,7 @@
 }
 
 .timeline ul li:nth-child(odd) .content:before {
-  left: -38px;
+  left: -37px;
 }
 
 .timeline ul li:nth-child(even) .content {
