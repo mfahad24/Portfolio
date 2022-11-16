@@ -7,7 +7,7 @@ import TimeToPray from "./TimeToPray.png";
 import DonateForZakah from "./DonateForZakah.png";
 import Timer from "./Timer.png";
 
-import Tooltip from "@mui/material/Tooltip";
+import ReactTooltip from "react-tooltip";
 
 function Portfolio() {
   return (
@@ -17,107 +17,92 @@ function Portfolio() {
       <div id="portfolio" className="portfoliocontainer">
         <div className="tile5">
           <div className="projectcontainer">
-            <Tooltip
-              title="React (Class Components), Fetch API, & React Testing Library"
-              disableInteractive
+            <a
+              href="http://jumpy-powder.surge.sh/"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-tip="React (Class Components), Fetch, Open Weather API & React Testing Library"
             >
-              <a
-                href="http://jumpy-powder.surge.sh/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  className="tileimg"
-                  src={WeatherApp}
-                  alt="Weather App"
-                  title="Click to visit"
-                ></img>
-              </a>
-            </Tooltip>
+              <img
+                className="tileimg"
+                src={WeatherApp}
+                alt="Weather App"
+                title="Click to visit"
+              ></img>
+            </a>
+            <ReactTooltip place="bottom" type="dark" effect="solid" />
           </div>
         </div>
         <div className="tile6">
           <div className="projectcontainer">
-            <Tooltip
-              title="React (Functional Components), React Hooks, TypeScript, React Testing Library & Material UI"
-              disableInteractive
+            <a
+              href="http://calendar-mf.surge.sh/"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-tip="React (Functional Components), React Hooks, TypeScript, React Testing Library & Material UI"
             >
-              <a
-                href="http://calendar-mf.surge.sh/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  className="tileimg"
-                  src={CalendarApp}
-                  alt="Calendar App"
-                  title="Click to visit"
-                ></img>
-              </a>
-            </Tooltip>
+              <img
+                className="tileimg"
+                src={CalendarApp}
+                alt="Calendar App"
+                title="Click to visit"
+              ></img>
+            </a>
+            <ReactTooltip place="bottom" type="dark" effect="solid" />
           </div>
         </div>
         <div className="tile6">
           <div className="projectcontainer">
-            <Tooltip
-              title="HTML, CSS, Vanilla JavaScript, XMLHTTPRequest & Joomla"
-              disableInteractive
+            <a
+              href="https://ionamasjid.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-tip="HTML, CSS, Vanilla JavaScript, XMLHTTPRequest & Joomla CMS"
             >
-              <a
-                href="https://ionamasjid.org/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  className="tileimg"
-                  src={TimeToPray}
-                  alt="Daily Prayer Times"
-                  title="Click to visit"
-                ></img>
-              </a>
-            </Tooltip>
+              <img
+                className="tileimg"
+                src={TimeToPray}
+                alt="Daily Prayer Times"
+                title="Click to visit"
+              ></img>
+            </a>
+            <ReactTooltip place="bottom" type="dark" effect="solid" />
           </div>
         </div>
         <div className="tile7">
           <div className="projectcontainer">
-            <Tooltip
-              title="HTML, CSS, Vanilla JavaScript, XMLHTTPRequest, Gold API & Joomla"
-              disableInteractive
+            <a
+              href="https://ionamasjid.org/portfolio/zakat-calculator.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-tip="HTML, CSS, Vanilla JavaScript, XMLHTTPRequest, Gold API & Joomla CMS"
             >
-              <a
-                href="https://ionamasjid.org/portfolio/zakat-calculator.html"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  className="tileimg"
-                  src={DonateForZakah}
-                  alt="Donation/Zakah Calculator"
-                  title="Click to visit"
-                ></img>
-              </a>
-            </Tooltip>
+              <img
+                className="tileimg"
+                src={DonateForZakah}
+                alt="Donation/Zakah Calculator"
+                title="Click to visit"
+              ></img>
+            </a>
+            <ReactTooltip place="bottom" type="dark" effect="solid" />
           </div>
         </div>
         <div className="tile7">
           <div className="projectcontainer">
-            <Tooltip
-              title="React (Functional Components), React Hooks, TypeScript, Axios, Modular CSS, Node, Express, MySQL, React Testing Library & Material UI"
-              disableInteractive
+            <a
+              href="http://windows-timer-app.surge.sh/"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-tip="React (Functional Components), React Hooks, TypeScript, Axios, Modular CSS, Node, Express, MySQL, React Testing Library & Material UI"
             >
-              <a
-                href="http://windows-timer-app.surge.sh/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  className="tileimg"
-                  src={Timer}
-                  alt="Windows Timer App clone"
-                  title="Click to visit"
-                ></img>
-              </a>
-            </Tooltip>
+              <img
+                className="tileimg"
+                src={Timer}
+                alt="Windows Timer App clone"
+                title="Click to visit"
+              ></img>
+            </a>
+            <ReactTooltip place="bottom" type="dark" effect="solid" />
           </div>
         </div>
       </div>

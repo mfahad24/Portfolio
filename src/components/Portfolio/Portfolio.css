@@ -72,16 +72,22 @@ img {
   filter: brightness(80%);
 }
 
-.css-ja5taz-MuiTooltip-tooltip {
-  font-size: 1.1rem !important; 
+.__react_component_tooltip {
+  display: flex !important;
+  font-size: 1rem !important; 
   font-family: "Oswald", sans-serif !important;
   text-align: center !important; 
-  margin-top: -5px !important; 
+  margin-top: -15px !important; 
   background-color: #4f646f !important;
   border-radius: 5px !important;
-  box-shadow: 0 7px 20px 0 rgb(0 0 0 / 20%), 0 4px 10px 0 rgb(0 0 0 / 20%) !important;
   width: 250px !important; 
-  text-shadow: 2px 4px 3px rgb(0 0 0 / 30%) !important; 
+  height: 90px !important; 
+  align-items: center !important;
+  border: none !important;
+}
+
+.__react_component_tooltip::after {
+  display: none; 
 }
 
 /* mobile styles  */
