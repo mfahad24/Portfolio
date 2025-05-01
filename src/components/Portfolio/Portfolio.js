@@ -11,14 +11,14 @@ import Fundraiser from "./Fundraiser.jpg";
 
 const projects = [
   {
-    link: "https://github.com/mfahad24/ZakahCalculator",
+    link: "http://zakahcalculator.surge.sh/",
     imgSrc: DonateForZakah,
     alt: "Donation/Zakah Calculator",
     tooltip:
       "HTML, CSS, JavaScript, React, React Hooks, TypeScript, Fetch, Modular CSS, Vite, Gold API, and Json Bin API (README and live view pending)",
   },
   {
-    link: "https://github.com/mfahad24/Fundraiser-Tracker",
+    link: "http://fundraisertracker.surge.sh/",
     imgSrc: Fundraiser,
     alt: "Fundraiser Tracker with donation meter",
     tooltip:
