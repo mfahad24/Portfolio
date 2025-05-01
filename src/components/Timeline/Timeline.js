@@ -12,20 +12,11 @@ function Timeline() {
                 <time>March 2018</time>
               </h2>
               <p>
-                Graduated from the{" "}
-                <a
-                  className="grandcircus"
-                  href="https://www.grandcircus.co/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Grand Circus
-                </a>{" "}
-                Front End Bootcamp. It was a ten week fulltime bootcamp that
-                provided me with a solid foundation of coding front-end
-                experiences using HTML, CSS, JavaScript, and Angular. Besides
-                front end skills, the bootcamp also covered back-end coursework
-                like servers, JSON APIs, and SQL.
+                Completed Grand Circus’ intensive 10-week Front-End Bootcamp,
+                building a solid foundation in HTML, CSS, JavaScript, and
+                Angular. Also explored back-end fundamentals—including servers,
+                JSON APIs, and SQL—broadening my capabilities beyond front-end
+                development.
               </p>
             </div>
           </li>
@@ -35,9 +26,9 @@ function Timeline() {
                 <time>July 2018</time>
               </h2>
               <p>
-                Started as a Wordpress Developer for LivingSpace Sunrooms in
-                Plymouth, MI, where I spearheaded the migration, development and
-                oversight of the company website using PHP, HTML, CSS, and
+                Initiated my journey as a WordPress Developer at LivingSpace
+                Sunrooms in Plymouth, MI. Pioneered the migration, development,
+                and oversight of the company website using PHP, HTML, CSS, and
                 JavaScript.
               </p>
             </div>
@@ -48,28 +39,10 @@ function Timeline() {
                 <time>January 2019</time>
               </h2>
               <p>
-                Started working at Campbell Ewald in Detroit, MI as a Front End
-                Developer. Here I worked with a small team of developers working
-                on sites such as{" "}
-                <a
-                  className="grandcircus"
-                  href="https://www.unionbank.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Union Bank
-                </a>{" "}
-                and{" "}
-                <a
-                  className="grandcircus"
-                  href="https://healthy.kaiserpermanente.org/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Kaiser Permanente
-                </a>{" "}
-                by applying skills in modern HTML, CSS, and JavaScript on a Vue
-                front end framework
+                Started as a Front End Developer at Campbell Ewald in Detroit,
+                MI. Collaborated with a dynamic team on projects for Union Bank
+                and Kaiser Permanente, employing modern HTML, CSS, and
+                JavaScript within a Vue front-end framework.
               </p>
             </div>
           </li>
@@ -79,18 +52,26 @@ function Timeline() {
                 <time>August 2019</time>
               </h2>
               <p>
-                Began working at Elektrobit Automotives in Farmington Hills, MI
-                as a Software Engineer working on the{" "}
-                <a
-                  className="grandcircus"
-                  href="https://www.ford.com/technology/sync/sync-4/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  FORD SYNC4
-                </a>{" "}
-                infotainment system.
+              Joined Elektrobit Automotives in Farmington Hills, MI as a Software Engineer, where I developed React-based applications for Ford’s SYNC 4 infotainment system—software currently deployed in millions of vehicles. 
               </p>
+            </div>
+          </li>
+          <li>
+            <div className="content">
+              <h2>
+                <time>January 2023</time>
+              </h2>
+              <p>
+              Joined Deloitte as a Frontend Engineer on the IRS Business Online Account (BOLA) team. Built scalable UI components and maintained high code quality for a platform serving millions of U.S. businesses. 
+              </p>
+            </div>
+          </li>
+          <li>
+            <div className="content">
+              <h2>
+                <time>July 2024</time>
+              </h2>
+              <p>Started as a Frontend Engineer in July 2024, quickly expanding into back-end development, production support, and security defect resolution to meet evolving team needs. Led efforts to manage critical user messaging on IRS.gov, directly influencing the experience of over 2.4 million daily users during peak tax season.</p>
             </div>
           </li>
         </ul>

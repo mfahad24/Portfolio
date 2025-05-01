@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./TopMenu.css";
-import MohammedFahadResume from "./MohammedFahadResume.pdf";
+import MohammedFahadResume from "./Mohammed-Fahad-Resume.pdf";
 
 class TopMenu extends Component {
   constructor(props) {

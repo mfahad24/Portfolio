@@ -13,7 +13,6 @@ import Timeline from "./components/Timeline/Timeline.js";
 function App() {
   return (
     <div>
-      {" "}
       <TopMenu></TopMenu>
       <HeaderImage></HeaderImage>
       <MySkills></MySkills>

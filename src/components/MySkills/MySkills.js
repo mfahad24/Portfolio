@@ -32,6 +32,11 @@ function MySkills() {
         <i className="fab fa-node" style={{ color: "#00769D" }}></i>
         <h3>Express</h3>
       </div>
+      <div className="skillsbox">
+        {" "}
+        <i class="fab fa-java" style={{ color: "#00769D" }}></i>
+        <h3>Java</h3>
+      </div>
     </div>
   );
 }

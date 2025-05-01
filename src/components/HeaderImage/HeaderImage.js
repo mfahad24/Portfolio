@@ -5,7 +5,7 @@ function HeaderImage() {
   return (
     <div id="header" className="headerimagecontainer">
       <h1>Mohammed Fahad</h1>
-      <h2>Front-end Engineer</h2>
+      <h2>Frontend Engineer</h2>
       <div className="iconscontainer">
         <a
           href="https://www.linkedin.com/in/mfahad24/"

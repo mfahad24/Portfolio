@@ -4,16 +4,7 @@ function AboutMe() {
   return (
     <div id="aboutme" className="aboutmecontainer">
       <blockquote>
-        Front-end engineer currently working in the automotive space at{" "}
-        <a
-          className="grandcircus"
-          href="https://www.elektrobit.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >Elektrobit Automotives
-        </a>. Currently, I am using a wide variety of
-        technologies to develop infotainment software for the Ford SYNC4
-        project.{" "}
+      Serving as a Frontend Engineer at Cherokee Federal, where I apply my technical expertise to modernize IRS services. Focused on creating intuitive, high-impact user experiences that improve how taxpayers interact with essential services.
       </blockquote>
     </div>
   );
