@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./App.css";
 
 import TopMenu from "./components/TopMenu/TopMenu.js";
@@ -10,17 +10,39 @@ import Signature from "./components/Signature/Signature.js";
 import MySkills from "./components/MySkills/MySkills.js";
 import Timeline from "./components/Timeline/Timeline.js";
 
+const LoadingSpinner = () => (
+  <div className="spinner">
+    <div className="dot"></div>
+    <div className="dot"></div>
+    <div className="dot"></div>
+  </div>
+);
+
 function App() {
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 2000);
+  }, []);
+
   return (
     <div>
-      <TopMenu></TopMenu>
-      <HeaderImage></HeaderImage>
-      <MySkills></MySkills>
-      <AboutMe></AboutMe>
-      <Timeline></Timeline>
-      <Portfolio></Portfolio>
-      <ArrowUp></ArrowUp>
-      <Signature></Signature>
+      <TopMenu className="fade-in" isLoading={isLoading} />
+      {isLoading ? (
+        <LoadingSpinner />
+      ) : (
+        <div className="fade-in">
+          <HeaderImage />
+          <MySkills />
+          <AboutMe />
+          <Timeline />
+          <Portfolio />
+          <ArrowUp />
+          <Signature />
+        </div>
+      )}
     </div>
   );
 }

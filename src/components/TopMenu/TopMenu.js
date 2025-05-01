@@ -10,7 +10,7 @@ class TopMenu extends Component {
 
   listenToScroll = () => {
     this.setState({
-      scrollPosition: window.scrollY
+      scrollPosition: window.scrollY,
     });
   };
 
@@ -25,15 +25,39 @@ class TopMenu extends Component {
   render() {
     if (window.scrollY < 150 && window.innerWidth > 600) {
       return (
-        <div className="navcontainer">
+        <div
+          className="navcontainer"
+          // style={{ height: this.props.isLoading ? "130px" : undefined }}
+        >
           <nav className="nav">
-            <a href="#skills">My Skills</a>
-            <a href="#aboutme">About Me</a>
-            <a href="#timeline">Timeline</a>
-            <a href="#portfolio">Projects</a>
-            <a href={MohammedFahadResume} target="_blank" rel="noopener noreferrer">
-              Resume
-            </a>
+            {this.props.isLoading ? (
+              <>
+                <a href="#skills"></a>
+                <a href="#aboutme"></a>
+                <a href="#timeline"></a>
+                <a href="#portfolio"></a>
+                <a
+                  href={MohammedFahadResume}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                </a>
+              </>
+            ) : (
+              <>
+                <a href="#skills">My Skills</a>
+                <a href="#aboutme">About Me</a>
+                <a href="#timeline">Timeline</a>
+                <a href="#portfolio">Projects</a>
+                <a
+                  href={MohammedFahadResume}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Resume
+                </a>
+              </>
+            )}
           </nav>
         </div>
       );
@@ -41,13 +65,32 @@ class TopMenu extends Component {
       return (
         <div id="slimnav" className="navcontaineralt">
           <nav className="nav">
-            <a href="#skills">My Skills</a>
-            <a href="#aboutme">About Me</a>
-            <a href="#timeline">Timeline</a>
-            <a href="#portfolio">Projects</a>
-            <a href={MohammedFahadResume} target="_blank" rel="noopener noreferrer">
-              Resume
-            </a>
+            {this.props.isLoading ? <><>
+                <a href="#skills"></a>
+                <a href="#aboutme"></a>
+                <a href="#timeline"></a>
+                <a href="#portfolio"></a>
+                <a
+                  href={MohammedFahadResume}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                </a>
+              </></> : (
+              <>
+                <a href="#skills">My Skills</a>
+                <a href="#aboutme">About Me</a>
+                <a href="#timeline">Timeline</a>
+                <a href="#portfolio">Projects</a>
+                <a
+                  href={MohammedFahadResume}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Resume
+                </a>
+              </>
+            )}
           </nav>
         </div>
       );
