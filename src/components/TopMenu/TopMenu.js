@@ -25,10 +25,7 @@ class TopMenu extends Component {
   render() {
     if (window.scrollY < 150 && window.innerWidth > 600) {
       return (
-        <div
-          className="navcontainer"
-          // style={{ height: this.props.isLoading ? "130px" : undefined }}
-        >
+        <div className="navcontainer">
           <nav className="nav">
             {this.props.isLoading ? (
               <>
@@ -40,8 +37,7 @@ class TopMenu extends Component {
                   href={MohammedFahadResume}
                   target="_blank"
                   rel="noopener noreferrer"
-                >
-                </a>
+                ></a>
               </>
             ) : (
               <>
@@ -65,18 +61,21 @@ class TopMenu extends Component {
       return (
         <div id="slimnav" className="navcontaineralt">
           <nav className="nav">
-            {this.props.isLoading ? <><>
-                <a href="#skills"></a>
-                <a href="#aboutme"></a>
-                <a href="#timeline"></a>
-                <a href="#portfolio"></a>
-                <a
-                  href={MohammedFahadResume}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                </a>
-              </></> : (
+            {this.props.isLoading ? (
+              <>
+                <>
+                  <a href="#skills"></a>
+                  <a href="#aboutme"></a>
+                  <a href="#timeline"></a>
+                  <a href="#portfolio"></a>
+                  <a
+                    href={MohammedFahadResume}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  ></a>
+                </>
+              </>
+            ) : (
               <>
                 <a href="#skills">My Skills</a>
                 <a href="#aboutme">About Me</a>

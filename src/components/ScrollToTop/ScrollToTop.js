@@ -9,7 +9,7 @@ class ScrollToTop extends Component {
 
   listenToScroll = () => {
     this.setState({
-      scrollPosition: window.scrollY
+      scrollPosition: window.scrollY,
     });
   };
 

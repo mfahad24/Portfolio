@@ -52,7 +52,10 @@ function Timeline() {
                 <time>August 2019</time>
               </h2>
               <p>
-              Joined Elektrobit Automotives in Farmington Hills, MI as a Software Engineer, where I developed React-based applications for Ford’s SYNC 4 infotainment system—software currently deployed in millions of vehicles. 
+                Joined Elektrobit Automotives in Farmington Hills, MI as a
+                Software Engineer, where I developed React-based applications
+                for Ford’s SYNC 4 infotainment system—software currently
+                deployed in millions of vehicles.
               </p>
             </div>
           </li>
@@ -62,7 +65,10 @@ function Timeline() {
                 <time>January 2023</time>
               </h2>
               <p>
-              Joined Deloitte as a Frontend Engineer on the IRS Business Online Account (BOLA) team. Built scalable UI components and maintained high code quality for a platform serving millions of U.S. businesses. 
+                Joined Deloitte as a Frontend Engineer on the IRS Business
+                Online Account (BOLA) team. Built scalable UI components and
+                maintained high code quality for a platform serving millions of
+                U.S. businesses.
               </p>
             </div>
           </li>
@@ -71,7 +77,14 @@ function Timeline() {
               <h2>
                 <time>July 2024</time>
               </h2>
-              <p>Started as a Frontend Engineer in July 2024, quickly expanding into back-end development, production support, and security defect resolution to meet evolving team needs. Led efforts to manage critical user messaging on IRS.gov, directly influencing the experience of over 2.4 million daily users during peak tax season.</p>
+              <p>
+                Started as a Frontend Engineer in July 2024, quickly expanding
+                into back-end development, production support, and security
+                defect resolution to meet evolving team needs. Led efforts to
+                manage critical user messaging on IRS.gov, directly influencing
+                the experience of over 2.4 million daily users during peak tax
+                season.
+              </p>
             </div>
           </li>
         </ul>
